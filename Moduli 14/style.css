@@ -1,0 +1,42 @@
+article p{
+    background: lightblue;
+    color: yellow;
+    padding: 20px;
+}
+
+article > p{
+    background: pink;
+}
+
+article ~ p{
+    background: lightseagreen;
+    color: aliceblue;
+    padding: 20px;
+}
+
+article + p{
+    background: lightgoldenrodyellow;
+    color: aqua;
+}
+
+input:out-of-range{
+    border: 3px solid lightcoral;
+}
+
+span:first-of-type{
+    background: lightgreen;
+    color: darkblue;
+    padding: 10px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input:invalid{
+    border: 2px solid pink;
+}
+
+input:valid{
+    border: 2 px solid lightblue;
+}
