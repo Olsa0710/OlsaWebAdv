@@ -86,5 +86,13 @@ align-items: end;
     flex-direction: column;
 }
 
-
+@media only screen and(max-width:880px){
+.aboutbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+    
+}
 

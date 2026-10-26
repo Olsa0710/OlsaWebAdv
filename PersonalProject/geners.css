@@ -157,3 +157,12 @@ align-items: end;
     font-size: 14px;
 }
 
+@media only screen and(max-width:880px){
+.genersbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+    
+}

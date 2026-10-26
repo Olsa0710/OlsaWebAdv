@@ -191,7 +191,15 @@ hr{
     flex-direction: column;
 }
 
-
+@media only screen and(max-width:880px){
+.homebody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+    
+}
 
 
 

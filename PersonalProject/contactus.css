@@ -164,3 +164,13 @@ h1{
     margin: 5px;
     font-size: 14px;
 }
+
+@media only screen and(max-width:880px){
+.contacbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+    
+}
