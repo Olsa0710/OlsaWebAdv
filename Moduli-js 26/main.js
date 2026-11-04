@@ -9,3 +9,7 @@ console.log(dita1 + dita2 + dita3)
 var totali = dita1 + dita2 + dita3;
 alert('Kemi shitur :'+ totali )
 
+var malli_i_kthyer = 4
+
+var sold = totali - malli_i_kthyer
+console.log(sold)
