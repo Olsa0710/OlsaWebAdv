@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Moduli-js 33</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+            
+            <form onsubmit="return validation();" method="POST">
+
+                <div class="name-container">
+                    <label id="name-label" for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <span id="name_error">Please enter a valid name.</span>
+                </div>
+
+                <br>
+
+                <div class="age-container">
+                    <label id="age-label" for="age">Age:</label>
+                    <input type="text" name="age" id="age">
+                    <span id="age_error">Please enter a valid age.</span>
+                </div>
+
+                <br>
+
+                <div class="city-container">
+                    <label id="city-label" for="city">City:</label>
+                    <select name="city" id="city">
+                        <option value="" selected></option>
+                        <option value="prishtine" selected>Prishtine</option>
+                        <option value="mitrovic" selected>Mitrovic</option>
+                        <option value="vushtrri" selected>Vushtrri</option>
+                        <option value="fushkosov" selected>Fush Kosov</option>
+                    </select>
+                    <span id="city">Please select a city.</span>
+                </div>
+
+                <br>
+
+                <button type="submit" name="submit">Send</button>
+
+            </form>
+
+            <script src="mian.js"></script>
+        </body>
+    </html>
